@@ -10,7 +10,10 @@ hello.add(60);
 
 // console.log('set size is : '+ hello.size);
 
-// console.log(hello.has(70))
+// console.log(hello.has(70)).
+
+
+
 // console.log(hello.has(50))
 // console.log(hello);
 
