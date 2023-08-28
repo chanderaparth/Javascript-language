@@ -1,0 +1,11 @@
+// console.log Number(true);
+// console.log Number(false);
+// console.logNumber("10");
+// console.log Number("  10");
+// console.log Number("10  ");
+// console.log Number(" 10  ");
+// console.log Number("10.33");
+// console.log Number("10,33");
+// console.log Number("10 33");
+// console.log Number("John");
+// console.log(Number('10 30 30'));
