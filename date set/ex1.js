@@ -1,0 +1,11 @@
+let data = new Date();
+// data.setFullYear(2020);
+// data.setMonth(5);
+// data.setDate(20);
+// data.setHours(20);
+// data.setMinutes(20);
+// data.setSeconds(20);
+// data.setMilliseconds(20);
+// data.setTime(20);
+// data.setTimezoneOffset(5);
+console.log(data);

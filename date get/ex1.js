@@ -1,0 +1,12 @@
+let data = new Date();
+// data.getFullYear();
+// data.getMonth();
+// data.getDate();
+// data.getDay();
+// data.getHours();
+// data.getMinutes();
+// data.getSeconds();
+// data.getMilliseconds();
+// data.getTime();
+// data.getTimezoneOffset();
+console.log(data);
