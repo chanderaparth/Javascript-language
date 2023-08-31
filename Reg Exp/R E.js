@@ -1,0 +1,10 @@
+let data = 'my name is ram sharma, ramsharma567@hello.in';
+// let reg = /@/i;
+// let reg = /JAVA/1;
+// let reg = /5/g;
+// let reg = /[H,e,5]/g;
+// let reg = /(r|5|@)/g;
+// let reg = /\d/g; 
+// let reg = /\s/g;
+let result = data.match(reg);
+console.log(result);
