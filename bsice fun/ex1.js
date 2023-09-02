@@ -75,7 +75,6 @@
 //     }
 //     console.log(Add (10,15));
 
-// 2. fun
 
 
 
