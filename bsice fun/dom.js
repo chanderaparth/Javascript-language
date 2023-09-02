@@ -11,14 +11,14 @@
 // console.log(z);
 
 
-let voteing = function(n)
-{
+// let voteing = function(n)
+// {
 	
-	if(n>18)
-		console.log("eligible for voteing");
-	else
-        console.log("eligible for not voting");
-}
+// 	if(n>18)
+// 		console.log("eligible for voteing");
+// 	else
+//         console.log("eligible for not voting");
+// }
 
-console.log(n);	
+// console.log(n);	
 
