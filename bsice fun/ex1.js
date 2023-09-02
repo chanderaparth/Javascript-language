@@ -64,3 +64,22 @@
     
     // }
     //console.log(Add (10,15));
+
+  //  1. fun
+
+
+//   let Add = function (a, b){
+
+//     return a + b;
+    
+//     }
+//     console.log(Add (10,15));
+
+// 2. fun
+
+
+const square = function (number) {
+    return number * number;
+};
+const x = square(4); 
+console.log(x);
