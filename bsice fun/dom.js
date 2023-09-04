@@ -30,7 +30,7 @@
 // if(34){
  
 //  console.log("pass");
-//}
+////}
 // else
 // {
 //     console.log("fall");
