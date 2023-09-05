@@ -4,6 +4,7 @@
 // 4. function Objects
 // 5. this keyword
 // 6. callback function
+
 // 7. rest parameter
 // 8. generator
 
@@ -17,6 +18,8 @@
 // }
 // console.log(15*5);
 
+
+
 // 2. 1.Arrow Function 
 // let x = (a,b) =>{
 // let sum = a+b;
@@ -27,6 +30,9 @@
 // console.log(x(15,20));
 
 
+
+
+
 // 3. IIFE I
 
 // (function(){
@@ -35,6 +41,8 @@
 // ((a,b)=>{
 //  console.log("Product is: ", a*b);
 // })(22,3);
+
+
 
 
 // 4.// 1. function Objects 
@@ -59,6 +67,9 @@
 // console.log(text);
 
 
+
+
+
 // 5. // this keyword
 // let person = {firstName: "Skill",
 //             lastname: "Qode",
@@ -70,6 +81,9 @@
 // }
 // console.log(person.age);
 // console.log(person. Fullname());
+
+
+
 
 // 6. Callback function
 //  function hello(){
