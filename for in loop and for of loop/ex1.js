@@ -13,6 +13,7 @@
 
 //     }; 
 
+// 2 //
 
 // // let abc = ["One", "Two", "Three", "Four"];
 // //            for (let x in abc){ 
@@ -20,6 +21,7 @@
 // // }
 
 
+// 3 //
 // let myString = "who are you ??..........";
 
 // for (let i in myString) { 
@@ -28,6 +30,9 @@
 // console.log(x);
 
 //  }
+
+
+
 
 
 // 2.  For of loop //
