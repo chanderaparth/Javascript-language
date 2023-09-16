@@ -106,22 +106,43 @@
 // try...catch...throw Example
 
 {
-    const number = 140;
-    try {
-        if(number > 50) {
-            console.log('Success');
-        }
-        else {
+    // let number = 140;
+    // try {
+    //     if(number > 50) {
+    //         console.log('Success');
+    //     }
+    //     else {
 
-            // user-defined throw statement
-             throw new Error('The number is low');
-        }
+    //         // user-defined throw statement
+    //          throw new Error('The number is low');
+    //     }
 
-        // if throw executes, the below code does not execute
-        console.log('hello');
-    }
-    catch(error) {
-        console.log('An error caught'); 
-        console.log('Error message: ' + error);  
-    }
+    //     // if throw executes, the below code does not execute
+    //     console.log('hello');
+    // }
+    // catch(error) {
+    //     console.log('An error caught'); 
+    //     console.log('Error message: ' + error);  
+    // }
+}
+
+
+{
+let num1 = 30, num2 = 50;
+// const input = "Hello"
+try {
+    console.log(num1*num2);
+    console.log(num1+num2);
+    console.log(num1/num2);
+    console.log(num1-num2);
+    console.log(num1%num2);
+    console.log((num1)+(num2));
+    // console.log(j);
+} catch (error) {
+        // console.log('An error caught'); 
+        console.log('Error message: ' + error); 
+}
+finally{
+    console.log('Finally execute every time');
+}
 }
