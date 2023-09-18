@@ -81,12 +81,12 @@
 // querySelector()
 
 {
-    const element = document.querySelector(".demo");
-    console.log(element);
+    // const element = document.querySelector(".demo");
+    // console.log(element);
 
-    function changeColors() {
-      element.style.color = "red";
-    }
+    // function changeColors() {
+    //   element.style.color = "red";
+    // }
 }
 
 // class -> .className          id -> #id
