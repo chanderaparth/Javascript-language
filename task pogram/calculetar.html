@@ -1,45 +1,45 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>calculater</title>
-		<link rel="stylesheet" type="text/css" href="calculetar.css">
-	</head>
-	<body>
-		<div class="calc">
-			<h2 style="font-family: Verdana, serif; font-weight: bolder;">calculater</h2>
-			
-			<div id="screen">
-				<h2 id="output"></h2>
-
-			</div>
-
-			<button value="CLEAR" id="clear" onclick="clearClicked()">CLEAR</button>
-
-			<div id="operands">
-				<button class="opera" value="%" onclick="isclicked('%')">%</button> <br>
-				<button class="opera" value="*" onclick="isclicked('*')">*</button> <br>
-				<button class="opera" value="/"  onclick="isclicked('/')">/</button> <br>
-				<button class="opera" value="-"  onclick="isclicked('-')">-</button> <br>
-
-			</div>
-			<div id="numbers">
-				<button class="figures" value="7"  onclick="isclicked('7')">7 </button>
-				<button class="figures" value="8"  onclick="isclicked('8')">8</button>
-				<button class="figures" value="9"  onclick="isclicked('9')">9</button> <br>
-				<button class="figures" value="4"  onclick="isclicked('4')">4</button>
-				<button class="figures" value="5"  onclick="isclicked('5')">5</button>
-				<button class="figures" value="6"  onclick="isclicked('6')">6</button> <br>
-				<button class="figures" value="1"  onclick="isclicked('1')">1</button>
-				<button class="figures" value="2"  onclick="isclicked('2')">2</button>
-				<button class="figures" value="3"  onclick="isclicked('3')">3</button> <br>
-				<button class="figures" value="0"  onclick="isclicked('0')">0</button>
-				<button class="figures" value="."  onclick="isclicked('.')"><strong>.</strong></button>
-				<span><button value="+" onclick="isclicked('+')">+</button> </span>
-			</div>	
-			<section>
-				<button id="equalto" value="=" onclick="equalClicked()">=</button> 	
-			</section>
-		</div>
-        <script type="text/javascript" src="./calculetar.js" async="async"></script>
-	</body>
-</html>
+<body>
+	<div class="head">
+	  <h1>Calculator</h1>
+	  <br>
+	</div>
+	<link rel="stylesheet" href="calculetar.css".css">
+	<div class="container">
+	  <div class="row">
+		<input type="text" id="display">
+	  </div>
+	  <div class="row">
+		<button class="op" id="AC" type="button">AC</button>
+		<button class="op" id="DEL" type="button">C</button>
+		<button class="op" id="power" type="button">%</button>
+		<button class="op" type="button">÷</button>
+	  </div>
+	  <div class="row">
+		<button type="button">7</button>
+		<button type="button">8</button>
+		<button type="button">9</button>
+		<button class="op" id="multiply" type="button">x</button>
+	  </div>
+	  <div class="row">
+		<button type="button">4</button>
+		<button type="button">5</button>
+		<button type="button">6</button>
+		<button class="op" type="button">+</button>
+	  </div>
+	  <div class="row">
+		<button type="button">1</button>
+		<button type="button">2</button>
+		<button type="button">3</button>
+		<button class="op" type="button">-</button>
+	  </div>
+	  <div class="row">
+		<button type="button">00</button>
+		<button type="button">0</button>
+		<button type="button">.</button>
+		<button class="equal" id="equal" type="button">=</button>
+	  </div>
+	</div>
+	<script src="calculetar.js"></script>
+  </body>
+  
+  </html>

@@ -1,0 +1,46 @@
+body {
+    background-color:goldenrod;
+    font-family: sans-serif;
+    letter-spacing: .03rem;
+  }
+  
+  #container {
+    margin: 4rem 6rem;
+    box-shadow: 0 0 2rem 0 #0000001f;
+    border-radius: 3rem;
+    padding: 1rem;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .btn {
+    padding: .8rem 1.5rem;
+    margin: .2rem 1rem;
+    border: .01rem solid #ccc;
+    border-radius: .8rem;
+    background-color:darkorange;
+  }
+  
+  .btn:hover {
+    background-color: #fff;
+    color: #222;
+  }
+  
+  select {
+    padding: .3rem .5rem;
+    border: .01rem solid #ccc;
+    border-radius: .5rem;
+  }
+  
+  .input-text {
+    padding: .3rem .5rem;
+    border: .01rem solid #ccc;
+    border-radius: .5rem;
+  }
+  
+  .input-text:focus, .btn:focus, select:focus {
+    outline: .15rem solid #b0f7ff;
+    border-radius: 0;
+  }
