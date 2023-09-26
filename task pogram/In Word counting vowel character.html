@@ -1,0 +1,84 @@
+<!DOCTYPE html> 
+<html lang="en-US"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <title>count vowels character</title> 
+    <style> 
+        body { 
+            background-image: url("Blog\ Cover\ \(1\)-1.webp");
+            image-rendering: crisp-edges;
+            font-family: Arial, sans-serif; 
+            background-color: #f0f0f0; 
+             
+        } 
+        .container { 
+            background-image: url("slide_1.jpg");
+            max-width: 600px; 
+            margin: auto; 
+            padding: 50px; 
+            background-color: #fff;  
+        } 
+        
+        h1 { 
+            background-image: url("slide_1.jpg");
+            text-align: center; 
+            color: #333; 
+        } 
+ 
+        textarea { 
+            background-color:lightblue;
+            border-color: black;
+            width: 100%; 
+            padding: 20px; 
+            border: 1px solid #ccc; 
+            
+        } 
+ 
+        button { 
+             background-color: #007bff;  
+             color: #fff; 
+             font-size:20px;
+             border-radius: 20px;
+             border-bottom: darkslateblue;
+            block-size:35px;
+            size : 200px;
+            background-image: url("pexels-pixabay-531880.jpg");
+            } 
+        div { 
+            text-align: center; 
+        } 
+        span { 
+            font-weight: bold; 
+            font-size: 18px; 
+        } 
+    </style> 
+</head> 
+<body> 
+    <div id = "dame">
+    <div class="container">
+        <h1>Count Vowels Character</h1> 
+        <textarea id="input" rows="10" spellcheck="false"></textarea> 
+        <button id="count-button">Count Voewal Character</button>
+        <div> 
+            Vowel Charter: <span id="word-length-result"></span> 
+        </div> 
+    </div> 
+    </div>
+    <script> 
+        let input = document.getElementById("input"); 
+        let button = document.getElementById("count-button"); 
+        let wordLengthResult = document.getElementById("word-length-result"); 
+ 
+        button.addEventListener("click", function () { 
+            let str = input.value; 
+ 
+           //count length 
+            let char = str.match(/[aeiou]/gi); 
+            let len = char.length 
+            
+            //return text length content vowels character 
+            wordLengthResult.textContent = len; 
+        }); 
+    </script> 
+</body> 
+</html>
